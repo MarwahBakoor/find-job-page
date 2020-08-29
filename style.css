@@ -1,11 +1,11 @@
 
+
 *,
 *::after,
 *::before {
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 html , input {
     /* 1rem  */
@@ -34,7 +34,8 @@ body{
     width: 90vw;
     position: absolute;
     left: 50%;
-    transform:translate(-50%,0);
+    -webkit-transform:translate(-50%,0);
+            transform:translate(-50%,0);
     padding: 2rem;
 }
 .job{
@@ -52,11 +53,19 @@ body{
     }
     .job{
         margin:3rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .job-about{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 }
@@ -89,8 +98,11 @@ body{
      }
 }
 .job-des-comp{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     gap: 1.2rem;
     font-size: 1.8rem;
     color:#216865;
@@ -119,6 +131,8 @@ body{
 }
 
 .job-des-info ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 3rem;
 }
@@ -140,8 +154,11 @@ body{
     padding: 2rem 0;
     border-top: 0.05rem solid rgb(148, 148, 148);
     font-size: 1.8rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     gap: 2rem;
 }
 
@@ -152,6 +169,8 @@ body{
 }
 
 .tag{
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     color: #156965;
     font-weight: 700; 
@@ -159,5 +178,4 @@ body{
     border-radius: 0.5rem;
     padding:0.8rem;
 }
-
 
