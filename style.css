@@ -42,9 +42,9 @@ body{
     margin:5rem;
     padding: 2rem;
     border-radius: 1rem;
-    box-shadow: #37918ea8  2px 20px 49px -18px;
-    -webkit-box-shadow: #37918ea8  2px 20px 49px -18px;
-    -moz-box-shadow: #37918ea8 2px 20px 49px -18px;
+    box-shadow: #6bb4b2a8  2px 20px 49px -18px;
+    -webkit-box-shadow: #6bb4b2a8  2px 20px 49px -18px;
+    -moz-box-shadow: #6bb4b2a8 2px 20px 49px -18px;
 }
 @media (min-width: 68.75em) {
     .container{
